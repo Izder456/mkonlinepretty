@@ -11,4 +11,4 @@ All Mario Kart cames currently supported by neptunjs in browser
 
 ## How to Use
 go to site:
-https://bit.ly/mkemu
+https://bit.ly/mkemul
