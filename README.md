@@ -1,7 +1,14 @@
-# emuonlinepretty
-a quick and dirty template for making emulation sites with heroku
+# MKONLINE! (Pretty)
+All Mario Kart cames currently supported by neptunjs in browser
 
-## HOW?
-* in each folder and file there are instructions
-* simply fork the code, edit required paramaters in each file and dir
-* then deploy with heroku by linking your repository
+## Page Nomenclature
+* MKS = Super Mario Kart
+* MKSC = Mario Kart: Super Circuit
+* MK64 = Mario Kart 64
+* MKDS = Mario Kart DS
+
+
+
+## How to Use
+go to site:
+https://bit.ly/mkemu
