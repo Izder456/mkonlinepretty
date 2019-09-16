@@ -1,11 +1,12 @@
 # MKONLINE! (Pretty)
-All Mario Kart cames currently supported by neptunjs in browser
+All Mario Kart cames currently supported by neptunjs in browser. as a bonus, a translation of animal forest for the n64 is included as well...
 
 ## Page Nomenclature
 * MKS = Super Mario Kart
 * MKSC = Mario Kart: Super Circuit
 * MK64 = Mario Kart 64
 * MKDS = Mario Kart DS
+* AC/F = Animal forest
 
 
 
