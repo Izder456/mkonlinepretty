@@ -14,6 +14,49 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body>
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+	  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-dark-gray" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	  <a href="./index.php" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+	  <a href="./PAGES/mks.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">MKS</a>
+      <a href="./PAGES/mksc.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">MKSC</a>
+	  <a href="./PAGES/mk64.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">MK64</a>
+	  <a href="./PAGES/mkds.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">MKDS</a>
+      <a href="./PAGES/ac.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">AC/F</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="./index.php" class="w3-bar-item w3-button w3-padding-large w3-white">HOME</a>
+    <a href="./PAGES/mks.html" class="w3-bar-item w3-button w3-padding-large w3-white">MKS</a>
+    <a href="./PAGES/mksc.html" class="w3-bar-item w3-button w3-padding-large w3-white">MKSC</a>
+    <a href="./PAGES/mk64.html" class="w3-bar-item w3-button w3-padding-large w3-white">MK64</a>
+    <a href="./PAGES/mkds.html" class="w3-bar-item w3-button w3-padding-large w3-white">MKDS</a>
+    <a href="./PAGES/ac.html" class="w3-bar-item w3-button w3-padding-large w3-white">AC/F</a>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+ <p>Theme Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+ <p>Emulation Powered by <a href="http://neptunjs.xyz/" target="_blank">NeptunJS</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
@@ -22,9 +65,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <h5 class="w3-padding-14">To get started, use the *red* NavBar!</h5>
   </div>
 </div>
-
-<div w3-include-html="/MODULES/navbar.html"></div>
-<script src="/MODULES/include.js"></script>
 
 </body>
 </html>
